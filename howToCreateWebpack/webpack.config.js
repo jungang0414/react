@@ -3,12 +3,12 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 //這裡是設定webpack的設定
 module.exports = {
-    entry: "./src/index.js", //進入點
+    entry: "./src/index.jsx", //進入點
     output: {
         publicPath: "http://localhost:3000/", //這裡是設定webpack-dev-server的位置
     },
     resolve: {
-        extensions: ["js", "jsx"], //這裡是設定import時可以省略副檔名
+        extensions: [".js", ".jsx", ".json"], //這裡是設定import時可以省略副檔名
     },
 
     devServer: {
