@@ -17,3 +17,8 @@ npm i webpack webpack-cli webpack-dev-server --save-dev
 ```
 npm i babel-loader @babel/core @babel/preset-env @babel/runtime @babel/plugin-transform-runtime @babel/preset-react --save-dev
 ```
+
+#### 安裝HTML&CSS loader(.html/.css檔案)
+```
+npm i html-webpack-plugin css-loader style-loader postcss-loader postcss postcss-preset-env --save-dev
+```
