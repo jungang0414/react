@@ -52,3 +52,16 @@ npx tailwindcss init
 //在專案目錄下新增postcss.config.js檔案, 調整設定
 
 ```
+
+#### 創建html, jsx, css
+```
+//根據webpack設定, 我們將資源都放在src資料夾底下
+
+//設定index.html
+
+//設定index.jsx
+
+//設定index.css 使用 tailwindcss
+
+//設定App.jsx
+```
