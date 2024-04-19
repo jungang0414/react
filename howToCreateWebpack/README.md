@@ -41,3 +41,14 @@ npm i react react-dom tailwindcss --save
   ]
 }
 ```
+
+#### 設定 Tailwind
+```
+//在專案目錄底下 初始化
+npx tailwindcss init
+
+//生成的tailwindcss.config.js檔案, 調整設定
+
+//在專案目錄下新增postcss.config.js檔案, 調整設定
+
+```
