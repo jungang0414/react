@@ -7,3 +7,8 @@
 //初始化
 npm init -y
 ```
+
+#### 安裝 webpack 工具
+```
+npm i webpack webpack-cli webpack-dev-server --save-dev
+```
