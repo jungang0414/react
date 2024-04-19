@@ -28,6 +28,16 @@ npm i html-webpack-plugin css-loader style-loader postcss-loader postcss postcss
 npm i react react-dom tailwindcss --save
 ```
 
-#### 在根目錄底下設定webpack.config.js檔案, 此處用來調整打包設定.
+#### 在根目錄底下設定webpack.config.js檔案, 此處用來調整打包設定
 ```
+```
+
+#### 在根目錄底下設定.babelrc檔案, 用來調整載入babel-loader的設定
+```
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": [
+     ["@babel/transform-runtime"]
+  ]
+}
 ```
