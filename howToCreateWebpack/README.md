@@ -65,3 +65,17 @@ npx tailwindcss init
 
 //設定App.jsx
 ```
+
+#### 調整package.json檔案中的 script
+```
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "webpack --mode production",
+  "start": "webpack serve --open --mode development"
+},
+```
+
+#### 在terminal下指令啟動專案
+```
+npm run start
+```
