@@ -22,3 +22,8 @@ npm i babel-loader @babel/core @babel/preset-env @babel/runtime @babel/plugin-tr
 ```
 npm i html-webpack-plugin css-loader style-loader postcss-loader postcss postcss-preset-env --save-dev
 ```
+
+#### 安裝 React & tailwind
+```
+npm i react react-dom tailwindcss --save
+```
