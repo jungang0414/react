@@ -4,6 +4,7 @@ import App from "./App.jsx";
 
 //導入路由器套件
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import UseStateExample from "./components/useState-example/useState-example.jsx";
 
 //建立路由
 const router = createBrowserRouter([
@@ -12,8 +13,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/test",
-    element: <div>test</div>,
+    path: "/usestate",
+    element: <UseStateExample />,
   },
 ]);
 

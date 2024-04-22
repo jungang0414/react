@@ -1,9 +1,12 @@
 import "./App.css";
-
+import { Link } from "react-router-dom";
 function App() {
   return (
     <>
-      <div>App</div>
+      <h1>React Hooks</h1>
+      <p>
+        useState : <Link to={"/usestate"}>example</Link>{" "}
+      </p>
     </>
   );
 }
