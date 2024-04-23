@@ -12,7 +12,7 @@ function AddTodo({ onAddTodo }) {
       <button
         onClick={() => {
           setTitle("");
-          onAddTodo(title)
+          onAddTodo(title);
         }}
       >
         Add

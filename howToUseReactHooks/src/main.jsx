@@ -5,6 +5,7 @@ import App from "./App.jsx";
 //導入路由器套件
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UseStateExample from "./components/useState-example/useState-example.jsx";
+import UseEffectExample from "./components/useEffect-example/useEffect-example.jsx";
 
 //建立路由
 const router = createBrowserRouter([
@@ -16,10 +17,12 @@ const router = createBrowserRouter([
     path: "/usestate",
     element: <UseStateExample />,
   },
+  {
+    path: "/useeffect",
+    element: <UseEffectExample />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <RouterProvider router={router} />
 );

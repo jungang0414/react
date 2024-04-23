@@ -7,6 +7,10 @@ function App() {
       <p>
         useState : <Link to={"/usestate"}>example</Link>{" "}
       </p>
+      <br />
+      <p>
+        useEffect : <Link to={"/useeffect"}>example</Link>
+      </p>
     </>
   );
 }

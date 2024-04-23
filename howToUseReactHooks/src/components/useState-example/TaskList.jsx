@@ -23,7 +23,6 @@ function Task({ todo, onChange, onDelete }) {
   const [isEditing, setIsEditing] = useState(false);
   //列表內容
   let todoContent;
-  //假設!false 為true
   if (isEditing) {
     todoContent = (
       <>
