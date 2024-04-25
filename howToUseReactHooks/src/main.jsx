@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
@@ -6,6 +5,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UseStateExample from "./components/useState-example/useState-example.jsx";
 import UseEffectExample from "./components/useEffect-example/useEffect-example.jsx";
+import UseRefExample from "./components/useRef-example/useRef-example.jsx";
 
 //建立路由
 const router = createBrowserRouter([
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/useeffect",
     element: <UseEffectExample />,
+  },
+  {
+    path: "/useref",
+    element: <UseRefExample />,
   },
 ]);
 
