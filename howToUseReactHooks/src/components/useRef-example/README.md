@@ -2,7 +2,9 @@
 
 [useRef](https://react.dev/reference/react/useRef)
 
-React.useRef是一個讓你可以記住渲染不需要的值
+React.useRef 可以用來抓取 DOM 節點, 存放的值不會受到渲染(render)影響。
+1. 會回傳一個可變的 ref 對象, 其中 .current屬性會初始為傳入的參數.
+2. 當.current屬性變動時不會觸發重新渲染(render), 而每一次的render時都會給同一個 ref 對象.
 例如form表單輸入, 我們需要記住使用者的輸入, 
 但是又不想要使用者每一次的修改都會造成渲染，就可以使用useRef。
 

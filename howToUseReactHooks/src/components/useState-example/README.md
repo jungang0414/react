@@ -17,7 +17,7 @@ const [name, setName] = useState('Taylor');
 const [form, setForm] = useState({
     firstName: 'prevdate',
 });
-//不應該直接改變物件的元素, form.firstName = 'updata";
+//不應該直接改變物件的元素, form.firstName = "updata";
 //若是要改變表單內資料
 setForm({
     ...form,
