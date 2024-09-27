@@ -20,9 +20,6 @@ function App() {
           <p>
             useMemo : <Link to={"/usememo"}>useMemo example</Link>
           </p>
-          <p>
-            interview: <Link to={"/interview"}>code</Link>
-          </p>
         </div>
       </div>
     </>

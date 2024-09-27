@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UseStateExample from "./components/useState-example/useState-example.jsx";
 import UseEffectExample from "./components/useEffect-example/useEffect-example.jsx";
 import UseRefExample from "./components/useRef-example/useRef-example.jsx";
-import InterviewCode from "./components/interview-code/interview-code.jsx";
 import UseMemoExample from "./components/useMemo-example/useMemo-example.jsx";
 
 //建立路由
@@ -29,11 +28,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/usememo",
-    element: <UseMemoExample />
-  },
-  {
-    path: "/interview",
-    element: <InterviewCode />
+    element: <UseMemoExample />,
   },
 ]);
 
